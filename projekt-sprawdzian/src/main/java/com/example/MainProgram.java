@@ -2,7 +2,7 @@ package com.example;
 
 public class MainProgram {
 
-    public void main(String[] args){
+    public static void main(String[] args){
 
         /**
          * Utwórz klase Polynomial (wielomian)
