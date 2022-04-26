@@ -5,8 +5,8 @@ public class MainProgram {
     public void main(String[] args){
 
         /**
-         * Utwórz klase Polynomial (wielomian) z konstruktorem przyjmującym tablicę liczb typu int
-         * jako współczynniki
+         * Utwórz klase Polynomial (wielomian)
+         * z konstruktorem przyjmującym tablicę liczb typu int (współczynniki wielomianu)
          * np. {1,2,3} --> 3x^2 + 2x + 1
          */
 //        Polynomial w1 = new Polynomial(new int[]{1, 2, 1});
@@ -40,8 +40,9 @@ public class MainProgram {
 //        }
 
         /**
-         * Dodaj metodę w klasie Polynomial o nazwie 'add' która pozwoli na dodoawanie do siebie wielomianów
-         * i zwróci wynik w nowym obiekcie
+         * Dodaj metodę w klasie Polynomial o nazwie 'add',
+         * która pozwoli na dodoawanie do siebie wielomianów
+         * oraz zwróci wynik w nowym obiekcie
          */
 
 //        Polynomial w2 = new Polynomial(new int []{2,3,4});
@@ -81,7 +82,7 @@ public class MainProgram {
 //        Polynomial w3_pochodna = PolynomialHelper.derrivative(w3);
 //
 //        if(!w3_pochodna.equals(new Polynomial(new int[] {6, 8}))){
-//            System.out.println("Pochodna wielomiany nie została poprawnie wyliczona");
+//            System.out.println("Pochodna wielomianu nie została poprawnie wyliczona");
 //            return;
 //        }
 //
